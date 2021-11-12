@@ -44,7 +44,7 @@ public class MyPointcutAspect {
      * @return returns returnObject. which holds the return value of the method called by joinPoint.proceed()
      * @throws Throwable can contain any throwable possible from any method that is executed according the the allMethodExecutions pointcut
      */
-    @Around("allMethodExecutions()")
+    @Around("allStringReturns()")
     public Object aroundAdvice(ProceedingJoinPoint joinPoint) throws Throwable {
 
         System.out.println("Before Advice--" + joinPoint.toString());

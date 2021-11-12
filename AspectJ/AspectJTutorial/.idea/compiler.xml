@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AjcSettings">
-    <option name="ajcPath" value="$PROJECT_DIR$/../../../../../aspectj1.9/lib/aspectjtools.jar" />
+    <option name="ajcPath" value="$PROJECT_DIR$/../../../../../../aspectj1.9/lib/aspectjtools.jar" />
   </component>
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="ajc" />
@@ -10,7 +10,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AspectJ" />
+        <module name="AspectJTutorial" />
       </profile>
     </annotationProcessing>
   </component>
