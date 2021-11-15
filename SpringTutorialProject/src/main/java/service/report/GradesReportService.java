@@ -23,7 +23,7 @@ public class GradesReportService implements ReportService {
         stream.println("Printing Student Grades: ");
         List<StudentGrade> grades = classDAO.getStudentGrades();
 
-        // Just printing the query prettier. Could also chose to store the information in better model classes but
+        // Just printing the query prettier. Could also choose to store the information in better model classes but
         // that requires custom row mapping.
         for(int i = 0; i < grades.size(); i++) {
             stream.println(grades.get(i).toString());
