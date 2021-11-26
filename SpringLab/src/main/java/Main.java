@@ -31,12 +31,5 @@ public class Main {
         for (Object stud : allStudents) {
             System.out.println(stud.toString());
         }
-
-        System.out.println("\n-----Implementation of ReportService----- ");
-        ReportService reportService = (ReportService) context.getBean("reportService");
-        reportService.printReport(System.out);
-
-
-
     }
 }
