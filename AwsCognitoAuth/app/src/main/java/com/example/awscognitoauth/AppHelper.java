@@ -30,19 +30,19 @@ public class AppHelper {
      * Add your pool id here
      */
     //TODO: Set your pool id here (find this by going under general settings in your user pool)
-    private final String userPoolId = "us-east-2_cdzad2VNp";
+    private final String userPoolId = System.getenv(USER_POOL_ID);
 
     /**
      * Add your app id here
      */
     //TODO: Set your client id here (find this by going under app clients in your user pool)
-    private final String clientId = "3n2ia0rjm3eb916pjp444daqra";
+    private final String clientId = System.getenv(CLIENT_ID);
 
     /**
      * Add your client secret here
      */
     //TODO: Set your client secret here (find this by going under app clients and INTO show Details in your user pool)
-    private final String clientSecret = "1psd8qt539askbrjoak9vnbnudla2pihm095vmhkmtlvamlsgeis";
+    private final String clientSecret = System.getenv(CLIENT_SECRET);
 
     /**
      * Set Your User Pools region here
